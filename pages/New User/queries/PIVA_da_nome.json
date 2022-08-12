@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "NumRichiestePendenti",
+    "name": "PIVA_da_nome",
     "datasource": {
       "name": "CorsiFormazione",
       "pluginId": "postgres-plugin",
@@ -13,30 +13,36 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HomePage",
+    "pageId": "New User",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT COUNT (Corso) FROM Iscrizioni WHERE Stato = 'Pendente';",
+      "body": "SELECT piva FROM aziende where ragionesociale = {{Select1.selectedOptionValue}};",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ]
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "Select1.selectedOptionValue"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "HomePage_NumRichiestePendenti",
+  "id": "New User_PIVA_da_nome",
   "deleted": false,
-  "gitSyncId": "62f362dbc0afc81462c1910b_62f603224cee6a2a3bdafce0"
+  "gitSyncId": "62f362dbc0afc81462c1910b_62f6274b4cee6a2a3bdafcf3"
 }

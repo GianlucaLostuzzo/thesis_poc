@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "ApprovaRichiesta",
+    "name": "RifiutaRichiesta",
     "datasource": {
       "name": "CorsiFormazione",
       "pluginId": "postgres-plugin",
@@ -13,12 +13,12 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HomePage",
+    "pageId": "Approvazioni",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE Iscrizioni\n  SET Stato = 'Accettata'\n  WHERE (Corso,Persona) = (SELECT Corsi.idCorso, Utenti.CF\n\t\t\t\t\t\t\t\t\t\t\t\t\tFROM Iscrizioni\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJOIN Corsi on Iscrizioni.Corso = Corsi.idCorso\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJOIN Utenti on Iscrizioni.Persona = Utenti.CF\n\t\t\t\t\t\t\t\t\t\t\t\t\tWHERE Corsi.Nome = {{ Table1.selectedRow.corso }}\n\t\t\t\t\t\t\t\t\t\t\t\t and Utenti.Nome = {{ Table1.selectedRow.nome }}\n\t\t\t\t\t\t\t\t\t\t\t\t and Utenti.Cognome = {{Table1.selectedRow.cognome}});\n",
+      "body": "UPDATE Iscrizioni\n  SET Stato = 'Declinata'\n  WHERE (Corso,Persona) = (SELECT Corsi.idCorso, Utenti.CF\n\t\t\t\t\t\t\t\t\t\t\t\t\tFROM Iscrizioni\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJOIN Corsi on Iscrizioni.Corso = Corsi.idCorso\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJOIN Utenti on Iscrizioni.Persona = Utenti.CF\n\t\t\t\t\t\t\t\t\t\t\t\t\tWHERE Corsi.Nome = {{ Table1.selectedRow.corso }}\n\t\t\t\t\t\t\t\t\t\t\t\t and Utenti.Nome = {{ Table1.selectedRow.nome }}\n\t\t\t\t\t\t\t\t\t\t\t\t and Utenti.Cognome = {{Table1.selectedRow.cognome}});\n",
       "pluginSpecifiedTemplates": [
         {
           "value": false
@@ -44,7 +44,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "HomePage_ApprovaRichiesta",
+  "id": "Approvazioni_RifiutaRichiesta",
   "deleted": false,
-  "gitSyncId": "62f362dbc0afc81462c1910b_62f60e114cee6a2a3bdafce7"
+  "gitSyncId": "62f362dbc0afc81462c1910b_62f612bf4cee6a2a3bdafce9"
 }

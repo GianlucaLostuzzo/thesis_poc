@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Pendenti",
+    "name": "NumCorsiAttivi",
     "datasource": {
       "name": "CorsiFormazione",
       "pluginId": "postgres-plugin",
@@ -13,19 +13,19 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "HomePage",
+    "pageId": "Approvazioni",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Corsi.Nome AS Corso, Utenti.Nome, Utenti.Cognome, Iscrizioni.Stato \nFROM Iscrizioni \n\tJOIN Utenti on Iscrizioni.Persona = Utenti.CF\n\tJOIN Corsi on Iscrizioni.Corso = Corsi.idCorso\nWHERE Iscrizioni.Stato = 'Pendente';",
+      "body": "SELECT COUNT (idCorso) FROM corsi WHERE stato = 'Attivo';",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ]
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -36,7 +36,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "HomePage_Pendenti",
+  "id": "Approvazioni_NumCorsiAttivi",
   "deleted": false,
-  "gitSyncId": "62f362dbc0afc81462c1910b_62f60b3d4cee6a2a3bdafce5"
+  "gitSyncId": "62f362dbc0afc81462c1910b_62f601c34cee6a2a3bdafcde"
 }

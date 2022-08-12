@@ -5,7 +5,11 @@
       "isDefault": true
     },
     {
-      "id": "HomePage",
+      "id": "Approvazioni",
+      "isDefault": false
+    },
+    {
+      "id": "New User",
       "isDefault": false
     }
   ],
