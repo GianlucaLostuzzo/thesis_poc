@@ -496,7 +496,12 @@
                       "boxShadow": "none",
                       "widgetName": "DatePicker1",
                       "minDate": "1920-12-31T18:30:00.000Z",
-                      "dateFormat": "DD/MM/YY",
+                      "dateFormat": "DD-MM-YYYY",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "defaultDate"
+                        }
+                      ],
                       "displayName": "DatePicker",
                       "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
                       "searchTags": [
@@ -526,7 +531,7 @@
                       "key": "6y01bv4lw4",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "defaultDate": "2022-08-16T08:48:35.685Z",
+                      "defaultDate": "",
                       "isDeprecated": false,
                       "rightColumn": 33,
                       "widgetId": "p2r4nzagio",
@@ -539,7 +544,7 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "timePrecision": "minute",
+                      "timePrecision": "None",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "firstDayOfWeek": 0,
                       "closeOnSelection": true,
@@ -549,7 +554,12 @@
                       "boxShadow": "none",
                       "widgetName": "DatePicker2",
                       "minDate": "1920-12-31T18:30:00.000Z",
-                      "dateFormat": "DD/MM/YY",
+                      "dateFormat": "DD-MM-YYYY",
+                      "dynamicPropertyPathList": [
+                        {
+                          "key": "defaultDate"
+                        }
+                      ],
                       "displayName": "DatePicker",
                       "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
                       "searchTags": [
@@ -579,7 +589,7 @@
                       "key": "6y01bv4lw4",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "defaultDate": "2022-08-16T08:48:35.685Z",
+                      "defaultDate": "",
                       "isDeprecated": false,
                       "rightColumn": 61,
                       "widgetId": "7pfjm4wkda",
@@ -592,7 +602,7 @@
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "timePrecision": "minute",
+                      "timePrecision": "None",
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "firstDayOfWeek": 0,
                       "closeOnSelection": true,

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -612,7 +612,7 @@
                         }
                       ],
                       "labelPosition": "Auto",
-                      "options": "{{Aziende.data.map((row) => { return { label: row.ragionesociale, value: row.piva}})}}",
+                      "options": "{{Aziende.data.map( (obj) =>{ return  {'label': obj.ragionesociale, 'value': obj.ragionesociale } })}}",
                       "placeholderText": "Seleziona",
                       "isDisabled": false,
                       "key": "st4ch3hs9f",
