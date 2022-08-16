@@ -15,6 +15,14 @@
     {
       "id": "New Azienda",
       "isDefault": false
+    },
+    {
+      "id": "Imprese",
+      "isDefault": false
+    },
+    {
+      "id": "Utenti",
+      "isDefault": false
     }
   ],
   "viewMode": false,
