@@ -155,7 +155,7 @@
                       "parentId": "h44jk95tcc",
                       "renderMode": "CANVAS",
                       "isLoading": false,
-                      "disabledWhenInvalid": true,
+                      "disabledWhenInvalid": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "buttonVariant": "PRIMARY",
                       "iconAlign": "right",
