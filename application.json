@@ -11,6 +11,10 @@
     {
       "id": "New User",
       "isDefault": false
+    },
+    {
+      "id": "New Azienda",
+      "isDefault": false
     }
   ],
   "viewMode": false,
