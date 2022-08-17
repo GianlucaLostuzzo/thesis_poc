@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 730,
+          "bottomRow": 910,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -39,7 +39,7 @@
                 "group"
               ],
               "topRow": 2,
-              "bottomRow": 46,
+              "bottomRow": 52,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -60,7 +60,7 @@
                   "widgetName": "Canvas1",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 420,
+                  "bottomRow": 430,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -141,15 +141,9 @@
                         },
                         {
                           "key": "primaryColumns.stato.computedValue"
-                        },
-                        {
-                          "key": "primaryColumns.customColumn1.buttonLabel"
-                        },
-                        {
-                          "key": "primaryColumns.customColumn2.menuButtonLabel"
                         }
                       ],
-                      "leftColumn": 5,
+                      "leftColumn": 1,
                       "delimiter": ",",
                       "defaultSelectedRowIndex": 0,
                       "showInlineEditingOptionDropdown": true,
@@ -193,9 +187,7 @@
                         "corso",
                         "nome",
                         "cognome",
-                        "stato",
-                        "customColumn1",
-                        "customColumn2"
+                        "stato"
                       ],
                       "dynamicPropertyPathList": [],
                       "displayName": "Table",
@@ -204,22 +196,15 @@
                         "task": 245,
                         "step": 62,
                         "status": 75,
-                        "nome": 93,
-                        "corso": 86,
-                        "cognome": 102,
+                        "nome": 79,
+                        "corso": 61,
+                        "cognome": 85,
                         "stato": 124,
                         "customColumn1": 96
                       },
                       "parentRowSpace": 10,
                       "hideCard": false,
-                      "dynamicTriggerPathList": [
-                        {
-                          "key": "primaryColumns.customColumn1.onClick"
-                        },
-                        {
-                          "key": "primaryColumns.customColumn2.onClick"
-                        }
-                      ],
+                      "dynamicTriggerPathList": [],
                       "primaryColumns": {
                         "corso": {
                           "allowCellWrapping": false,
@@ -324,69 +309,11 @@
                           "isDiscardVisible": true,
                           "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"stato\"]))}}",
                           "cellBackground": ""
-                        },
-                        "customColumn1": {
-                          "allowCellWrapping": false,
-                          "index": 4,
-                          "width": 150,
-                          "originalId": "customColumn1",
-                          "id": "customColumn1",
-                          "alias": "customColumn1",
-                          "horizontalAlignment": "LEFT",
-                          "columnType": "iconButton",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": true,
-                          "label": "Accetta",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "",
-                          "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF",
-                          "customAlias": "",
-                          "buttonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'Accetta'))}}",
-                          "onClick": "{{ApprovaRichiesta.run()}}",
-                          "iconName": "thumbs-up",
-                          "buttonColor": "rgb(3, 179, 101)"
-                        },
-                        "customColumn2": {
-                          "allowCellWrapping": false,
-                          "index": 5,
-                          "width": 150,
-                          "originalId": "customColumn2",
-                          "id": "customColumn2",
-                          "alias": "customColumn2",
-                          "horizontalAlignment": "LEFT",
-                          "columnType": "iconButton",
-                          "enableFilter": true,
-                          "enableSort": true,
-                          "isVisible": true,
-                          "isDisabled": false,
-                          "isCellEditable": false,
-                          "isEditable": false,
-                          "isCellVisible": true,
-                          "isDerived": true,
-                          "label": "Rifiuta",
-                          "isSaveVisible": true,
-                          "isDiscardVisible": true,
-                          "computedValue": "",
-                          "buttonStyle": "rgb(3, 179, 101)",
-                          "labelColor": "#FFFFFF",
-                          "customAlias": "",
-                          "menuButtonLabel": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( 'Open Menu'))}}",
-                          "buttonColor": "#b91c1c",
-                          "iconName": "delete",
-                          "onClick": "{{RifiutaRichiesta.run()}}"
                         }
                       },
                       "key": "53fvn9jvlb",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 63,
                       "textSize": "0.875rem",
                       "widgetId": "ecjc8n4wxy",
                       "tableData": "{{Pendenti.data}}",
@@ -409,8 +336,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 7,
+                      "topRow": 0,
+                      "bottomRow": 8,
                       "parentRowSpace": 10,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
@@ -454,8 +381,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 36,
-                      "bottomRow": 40,
+                      "topRow": 37,
+                      "bottomRow": 41,
                       "parentRowSpace": 10,
                       "groupButtons": {
                         "groupButton2": {
@@ -514,7 +441,7 @@
                           "key": "groupButtons.groupButton2.onClick"
                         }
                       ],
-                      "leftColumn": 34,
+                      "leftColumn": 13,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -526,7 +453,7 @@
                       "key": "qh1t7xmta0",
                       "orientation": "horizontal",
                       "isDeprecated": false,
-                      "rightColumn": 58,
+                      "rightColumn": 50,
                       "widgetId": "w5macruywb",
                       "isVisible": true,
                       "version": 1,

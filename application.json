@@ -39,7 +39,7 @@
   "color": "#C7F3E3",
   "icon": "basketball",
   "unpublishedAppLayout": {
-    "type": "FLUID"
+    "type": "TABLET_LARGE"
   },
   "publishedAppLayout": {
     "type": "FLUID"
