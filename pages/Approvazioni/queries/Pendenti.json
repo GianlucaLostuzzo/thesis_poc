@@ -21,7 +21,7 @@
       "body": "SELECT Corsi.Nome AS Corso, Utenti.Nome, Utenti.Cognome, Iscrizioni.Stato \nFROM Iscrizioni \n\tJOIN Utenti on Iscrizioni.Persona = Utenti.CF\n\tJOIN Corsi on Iscrizioni.Corso = Corsi.idCorso\nWHERE Iscrizioni.Stato = 'Pendente';",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },

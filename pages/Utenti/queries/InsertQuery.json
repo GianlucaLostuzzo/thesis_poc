@@ -21,11 +21,12 @@
       "body": "INSERT INTO public.\"utenti\" (\n\t\"cf\",\n\t\"telefono\",\n\t\"nome\",\n\t\"cognome\",\n\t\"datanascita\",\n\t\"mail\",\n\t\"lavoraper\")\nVALUES (\n\t'{{insert_form.formData.cf}}',\n\t'{{insert_form.formData.telefono}}',\n\t'{{insert_form.formData.nome}}',\n\t'{{insert_form.formData.cognome}}',\n\t'{{insert_form.formData.datanascita}}',\n\t'{{insert_form.formData.mail}}',\n\t'{{insert_form.formData.lavoraper}}');",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

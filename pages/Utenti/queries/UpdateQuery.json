@@ -18,14 +18,19 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.\"utenti\" SET\n\t\t\"telefono\" = '{{update_form.fieldState.telefono.isVisible ? update_form.formData.telefono : update_form.sourceData.telefono}}',\n\t\t\"nome\" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',\n    \"cognome\" = '{{update_form.fieldState.cognome.isVisible ? update_form.formData.cognome : update_form.sourceData.cognome}}',\n\t\t\"datanascita\" = '{{update_form.fieldState.datanascita.isVisible ? update_form.formData.datanascita : update_form.sourceData.datanascita}}',\n\t\t\"mail\" = '{{update_form.fieldState.mail.isVisible ? update_form.formData.mail : update_form.sourceData.mail}}',\n\t\t\"lavoraper\" = '{{update_form.fieldState.lavoraper.isVisible ? update_form.formData.lavoraper : update_form.sourceData.lavoraper}}'\nWHERE \"cf\" = {{data_table.selectedRow.cf}};",
+      "body": "UPDATE public.\"utenti\" SET\n\t\t\"telefono\" = '{{update_form.fieldState.telefono.isVisible ? update_form.formData.telefono : update_form.sourceData.telefono}}',\n\t\t\"nome\" = '{{update_form.fieldState.nome.isVisible ? update_form.formData.nome : update_form.sourceData.nome}}',\n    \"cognome\" = '{{update_form.fieldState.cognome.isVisible ? update_form.formData.cognome : update_form.sourceData.cognome}}',\n\t\t\"datanascita\" = '{{update_form.fieldState.datanascita.isVisible ? update_form.formData.datanascita : update_form.sourceData.datanascita}}',\n\t\t\"mail\" = '{{update_form.fieldState.mail.isVisible ? update_form.formData.mail : update_form.sourceData.mail}}',\n\t\t\"lavoraper\" = '{{update_form.fieldState.lavoraper.isVisible ? update_form.formData.lavoraper : update_form.sourceData.lavoraper}}'\nWHERE \"cf\" = '{{data_table.selectedRow.cf}}';",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],

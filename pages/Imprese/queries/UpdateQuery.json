@@ -18,14 +18,19 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE public.\"aziende\" SET\n\t\t\"ragionesociale\" = '{{update_form.fieldState.ragionesociale.isVisible ? update_form.formData.ragionesociale : update_form.sourceData.ragionesociale}}',\n\t\t\"cf\" = '{{update_form.fieldState.cf.isVisible ? update_form.formData.cf : update_form.sourceData.cf}}',\n    \"mail\" = '{{update_form.fieldState.mail.isVisible ? update_form.formData.mail : update_form.sourceData.mail}}',\n\t\t\"telefono\" = '{{update_form.fieldState.telefono.isVisible ? update_form.formData.telefono : update_form.sourceData.telefono}}',\n\t\t\"settore\" = '{{update_form.fieldState.settore.isVisible ? update_form.formData.settore : update_form.sourceData.settore}}',\n\t\t\"personafisica\" = '{{update_form.fieldState.personafisica.isVisible ? update_form.formData.personafisica : update_form.sourceData.personafisica}}'\nWHERE \"piva\" = {{data_table.selectedRow.piva}};",
+      "body": "UPDATE public.\"aziende\" SET\n\t\t\"ragionesociale\" = '{{update_form.fieldState.ragionesociale.isVisible ? update_form.formData.ragionesociale : update_form.sourceData.ragionesociale}}',\n\t\t\"cf\" = '{{update_form.fieldState.cf.isVisible ? update_form.formData.cf : update_form.sourceData.cf}}',\n    \"mail\" = '{{update_form.fieldState.mail.isVisible ? update_form.formData.mail : update_form.sourceData.mail}}',\n\t\t\"telefono\" = '{{update_form.fieldState.telefono.isVisible ? update_form.formData.telefono : update_form.sourceData.telefono}}',\n\t\t\"settore\" = '{{update_form.fieldState.settore.isVisible ? update_form.formData.settore : update_form.sourceData.settore}}',\n\t\t\"personafisica\" = '{{update_form.fieldState.personafisica.isVisible ? update_form.formData.personafisica : update_form.sourceData.personafisica}}'\nWHERE \"piva\" = '{{data_table.selectedRow.piva}}';",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],

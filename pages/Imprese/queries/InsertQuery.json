@@ -21,11 +21,12 @@
       "body": "INSERT INTO public.\"aziende\" (\n\t\"piva\",\n\t\"ragionesociale\",\n\t\"cf\",\n\t\"mail\",\n\t\"telefono\",\n\t\"settore\",\n\t\"personafisica\")\nVALUES (\n\t'{{insert_form.formData.piva}}',\n\t'{{insert_form.formData.ragionesociale}}',\n\t'{{insert_form.formData.cf}}',\n\t'{{insert_form.formData.mail}}',\n\t'{{insert_form.formData.telefono}}',\n\t'{{insert_form.formData.settore}}',\n\t'{{insert_form.formData.personafisica}}');",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

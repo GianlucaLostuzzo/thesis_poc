@@ -21,7 +21,7 @@
       "body": "SELECT COUNT (Corso) FROM Iscrizioni;",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },

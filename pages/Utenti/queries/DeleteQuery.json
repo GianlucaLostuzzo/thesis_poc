@@ -18,14 +18,19 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "DELETE FROM public.\"utenti\"\n  WHERE \"cf\" = {{data_table.triggeredRow.cf}};",
+      "body": "DELETE FROM public.\"utenti\"\n  WHERE \"cf\" = '{{data_table.triggeredRow.cf}}';",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],

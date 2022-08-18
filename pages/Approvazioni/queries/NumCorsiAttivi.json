@@ -21,7 +21,7 @@
       "body": "SELECT COUNT (idCorso) FROM corsi WHERE stato = 'Attivo';",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },

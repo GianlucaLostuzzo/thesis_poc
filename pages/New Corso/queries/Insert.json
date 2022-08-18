@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO Corsi (Nome, Erogatore, Livello, Tipo, DataInizio, DataFine, Durata, Costo, URL, Stato) VALUES\n(\n\t{{Input1.text}},\n \t{{Input2.text}},\n\t{{Select1.selectedOptionValue}},\n\t{{Select2.selectedOptionValue}},\n\t{{DatePicker1.selectedDate}},\n\t{{DatePicker2.selectedDate}},\n\t{{Input3.text}},\n\t{{Input4.text}},\n\t{{Input5.text}},\n\t{{Select3.selectedOptionValue}}\n);",
+      "body": "INSERT INTO Corsi (Nome, Erogatore, Livello, Tipo, DataInizio, DataFine, Durata, Costo, URL, Stato) VALUES\n(\n\t'{{Input1.text}}',\n \t'{{Input2.text}}',\n\t'{{Select1.selectedOptionValue}}',\n\t'{{Select2.selectedOptionValue}}',\n\t'{{DatePicker1.selectedDate}}',\n\t'{{DatePicker2.selectedDate}}',\n\t'{{Input3.text}}',\n\t'{{Input4.text}}',\n\t'{{Input5.text}}',\n\t'{{Select3.selectedOptionValue}}'\n);",
       "pluginSpecifiedTemplates": [
         {
           "value": false
