@@ -18,10 +18,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO aziende\n  (ragionesociale, piva, cf, mail, telefono, settore, personafisica)\nVALUES\n  (\n    {{ InputAz1.text }},\n    {{ InputAz2.text }},\n\t\t{{InputAz3.text}},\n\t\t{{InputAz4.text}},\n\t\t{{InputAz5.text}},\n\t\t{{SelectAz1.selectedOptionLabel}},\n\t\t{{Select1.selectedOptionValue}}\n  );",
+      "body": "INSERT INTO aziende\n  (ragionesociale, piva, cf, mail, telefono, settore, personafisica)\nVALUES\n  (\n    '{{ InputAz1.text }}',\n    '{{ InputAz2.text }}',\n\t\t'{{InputAz3.text}}',\n\t\t'{{InputAz4.text}}',\n\t\t'{{InputAz5.text}}',\n\t\t'{{SelectAz1.selectedOptionLabel}}',\n\t\t{{Select1.selectedOptionValue}}\n  );",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },

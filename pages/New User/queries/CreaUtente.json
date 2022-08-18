@@ -18,10 +18,10 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO utenti\n  (nome, cognome, datanascita, cf, mail, telefono, lavoraper)\nVALUES\n  (\n    {{ Input1.text }},\n    {{ Input2.text }},\n    {{ DatePicker1.selectedDate }},\n\t\t{{Input3.text}},\n\t\t{{Input4.text}},\n\t\t{{Input5.text}},\n\t\t{{Input6.text}}\n  );",
+      "body": "INSERT INTO utenti\n  (nome, cognome, datanascita, cf, mail, telefono, lavoraper)\nVALUES\n  (\n\t\t'{{ Input1.text }}',\n    '{{ Input2.text }}',\n    '{{ DatePicker1.selectedDate }}',\n\t\t'{{Input3.text}}',\n\t\t'{{Input4.text}}',\n\t\t'{{Input5.text}}',\n\t\t'{{ Input6.text }}'\n  );",
       "pluginSpecifiedTemplates": [
         {
-          "value": true
+          "value": false
         }
       ]
     },

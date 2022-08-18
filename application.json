@@ -37,12 +37,12 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
-  "icon": "basketball",
+  "icon": "book",
   "unpublishedAppLayout": {
     "type": "TABLET_LARGE"
   },
   "publishedAppLayout": {
-    "type": "FLUID"
+    "type": "TABLET_LARGE"
   },
   "evaluationVersion": 2,
   "applicationVersion": 2,
