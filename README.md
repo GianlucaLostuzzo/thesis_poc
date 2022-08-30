@@ -30,6 +30,8 @@ When the installation of the conatiners has finished, follow these steps needed 
   <li>Login</li>
 </ul>
 
-
+<p align="center>
+<img src="https://github.com/GianlucaLostuzzo/thesis_poc/blob/master/assets/server%20creation.png" width = 5000>
+</p>
 
 <h2> Usage </h2>
