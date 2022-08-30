@@ -36,10 +36,10 @@ Right click on "Servers" and click Register - Server</br>
 Give a name to the server</br>
 <img src="./assets/general.png" width = 500/></br>
 
-Open a terminal window and run "docker inspect pg_container" and write down the IP of the container<br>
+Open a new terminal window, run "docker inspect pg_container" and write down the IP of the container<br>
 <img src="./assets/docker%20inspect.png" width = 500/></br>
 
-Return to PgAdmin 4 and select "Connection" tab and write the retrieved IP, the username and password of PostgreSQL<br>
+Return to PgAdmin 4, select "Connection" tab and write the retrieved IP, the username and password of PostgreSQL<br>
 <img src="./assets/IP.png" width = 500/></br>
 
 Click "Save".
