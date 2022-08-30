@@ -39,10 +39,16 @@ Give a name to the server</br>
 Open a terminal window and run "docker inspect pg_container" and write down the IP of the container<br>
 <img src="./assets/docker%20inspect.png" width = 500/></br>
 
-Return to PgAdmin 4 and select "Connection" tab and write the retrieved IP<br>
+Return to PgAdmin 4 and select "Connection" tab and write the retrieved IP, the username and password of PostgreSQL<br>
 <img src="./assets/IP.png" width = 500/></br>
 
-Click on save.
-
+Click "Save".
 
 <h2> Usage </h2>
+
+In your browser navigate to localhost:80, this will open the UI of Appsmith.
+
+If it is the first time you'll see this and you'll be required to fill out the sign up form:<br>
+<img src="./assets/appsmith.png" width = 500/><br>
+
+After the first time it will always sign in automatically.
