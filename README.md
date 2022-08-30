@@ -20,3 +20,12 @@ Docker <b>must</b> be installed in your machine.
   <li>Move to the folder where the docker-compose.yml file is saved</li>
   <li>Run the command "docker compose up -d"</li>
 </ol>
+
+When the installation of the conatiners is finished, follow these steps needed to connect PgAdmin 4 to PostgreSQL:
+<ul>
+  <li></li>
+</ul>
+
+<h2> Usage </h2>
+
+In order 
