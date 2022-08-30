@@ -27,11 +27,22 @@ When the installation of the conatiners has finished, follow these steps needed 
   <li>Insert the credentials for PgAdmin 4 (you can find them in the docker-compose file)</li>
   <li>Defuault credentials:</li>
   <ul><li>User: admin@admin.com</li><li>Pwd: admin</li></ul>
-  <li>Login</li>
+  <li>Click on Login</li>
 </ul>
 
-<p align="center>
-<img src="https://github.com/GianlucaLostuzzo/thesis_poc/blob/master/assets/server%20creation.png" width = 5000>
-</p>
+Right click on "Servers" and click Register - Server</br>
+<img src="./assets/server%20creation.png" width = 500/></br>
+
+Give a name to the server</br>
+<img src="./assets/general.png" width = 500/></br>
+
+Open a terminal window and run "docker inspect pg_container" and write down the IP of the container<br>
+<img src="./assets/docker%20inspect.png" width = 500/></br>
+
+Return to PgAdmin 4 and select "Connection" tab and write the retrieved IP<br>
+<img src="./assets/IP.png" width = 500/></br>
+
+Click on save.
+
 
 <h2> Usage </h2>
