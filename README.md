@@ -44,11 +44,10 @@ Return to PgAdmin 4 and select "Connection" tab and write the retrieved IP, the 
 
 Click "Save".
 
-<h2> Usage </h2>
-
-In your browser navigate to localhost:80, this will open the UI of Appsmith.
-
-If it is the first time you'll see this and you'll be required to fill out the sign up form:<br>
+After these steps navigate to localhost:80 for activating the UI of Appsmith.<br> The first time you'll be required to fill out the sign up form: <br>
 <img src="./assets/appsmith.png" width = 500/><br>
 
-After the first time it will always sign in automatically.
+<h2> Usage </h2>
+
+
+
