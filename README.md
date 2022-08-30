@@ -1,11 +1,22 @@
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
+<h1> Corsi di Formazione </h1>
 
-This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
+A low-code web-based platform for managing business learning courses.
 
-![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
+<h2> Why </h2>
 
-### [Github](https://github.com/appsmithorg/appsmith) • [Docs](https://docs.appsmith.com/?utm_source=github&utm_medium=social&utm_content=appsmith_docs&utm_campaign=null&utm_term=appsmith_docs) • [Community](https://community.appsmith.com/) • [Tutorials](https://github.com/appsmithorg/appsmith/tree/update/readme#tutorials) • [Youtube](https://www.youtube.com/appsmith) • [Discord](https://discord.gg/rBTTVJp)
+This project is a proof of concept for a master's degree thesis in Management Engineering - Digital Business & Analytics, that aims at studying and understanding the advantages, the different approaches and the possible usage of low-code and no-code platforms in business' software development units.
 
-##### You can visit the application using the below link
+<h2> How it works </h2>
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](http://localhost/applications/62f362dbc0afc81462c1910b/pages/62f362dbc0afc81462c1910e) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](http://localhost/applications/62f362dbc0afc81462c1910b/pages/62f362dbc0afc81462c1910e/edit)
+This app is built using <a href="https://github.com/appsmithorg">Appsmith</a> through Docker (self-hosted) integrated with a PostgreSQL database and managed via PgAdmin 4. Every software is installed through Docker.
+
+<h2> How to install </h2>
+
+Docker <b>must</b> be installed in your machine.
+
+<ol>
+  <li>Download from this folder link the docker-compose files</li>
+  <li>Open your terminal application</li>
+  <li>Move to the folder where the docker-compose.yml file is saved</li>
+  <li>Run the command "docker compose up -d"</li>
+</ol>
