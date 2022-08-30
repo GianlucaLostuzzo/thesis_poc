@@ -41,9 +41,6 @@ Select "Connection" tab and write the name of the service "db", the username and
 
 Click "Save".
 
-After these steps navigate to localhost:80 for activating the UI of Appsmith.<br> The first time you'll be required to fill out the sign up form: <br>
-<img src="./assets/appsmith.png" width = 500/><br>
-
 <h2> Usage </h2>
 
 
