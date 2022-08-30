@@ -15,7 +15,7 @@ This app is built using <a href="https://github.com/appsmithorg">Appsmith</a> th
 Docker <b>must</b> be installed in your machine.
 
 <ol>
-  <li>Download the <a href="https://github.com/GianlucaLostuzzo/thesis_poc/blob/master/docker-compose.yml">docker-compose</a> file</li>
+  <li>Download the <a href="https://github.com/GianlucaLostuzzo/thesis_poc/blob/master/docker-compose.yml" target="_blank">docker-compose</a> file</li>
   <li>Open your terminal application</li>
   <li>Move to the folder where the docker-compose.yml file is saved</li>
   <li>Run the command "docker compose up -d"</li>
