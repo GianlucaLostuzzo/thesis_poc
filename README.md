@@ -21,11 +21,15 @@ Docker <b>must</b> be installed in your machine.
   <li>Run the command "docker compose up -d"</li>
 </ol>
 
-When the installation of the conatiners is finished, follow these steps needed to connect PgAdmin 4 to PostgreSQL:
+When the installation of the conatiners has finished, follow these steps needed to connect PgAdmin 4 to PostgreSQL:
 <ul>
-  <li></li>
+  <li>In your browser navigate to localhost:5050</li>
+  <li>Insert the credentials for PgAdmin 4 (you can find them in the docker-compose file)</li>
+  <li>Defuault credentials:</li>
+  <ul><li>User: admin@admin.com</li><li>Pwd: admin</li></ul>
+  <li>Login</li>
 </ul>
 
-<h2> Usage </h2>
 
-In order 
+
+<h2> Usage </h2>
