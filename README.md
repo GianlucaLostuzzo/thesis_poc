@@ -1,6 +1,6 @@
 <h1> Corsi di Formazione </h1>
 
-A low-code web-based platform for managing business learning courses.
+A low-code web-based basic platform for managing business learning courses.
 
 <h2> Why </h2>
 
@@ -21,27 +21,12 @@ Docker <b>must</b> be installed in your machine.
   <li>Run the command "docker compose up -d"</li>
 </ol>
 
-When the installation of the containers has finished, follow these steps needed to connect PgAdmin 4 to PostgreSQL:
+Now it's possible to configure PostgreSQL,PgAdmin 4 and Appsmith from these guides:
 <ul>
-  <li>In your browser navigate to localhost:5050</li>
-  <li>Insert the credentials for PgAdmin 4 (you can find them in the docker-compose file)</li>
-  <li>Defuault credentials:</li>
-  <ul><li>User: admin@admin.com</li><li>Pwd: admin</li></ul>
-  <li>Click on Login</li>
+  <li><a href="https://github.com/GianlucaLostuzzo/thesis-poc-documentation/tree/main/postgres"> PostgreSQL & PgAdmin 4</a></li>
+  <li><a href="https://github.com/GianlucaLostuzzo/thesis-poc-documentation/tree/main/appsmith"> Appsmith</a></li>
 </ul>
 
-Right click on "Servers" and click Register - Server</br>
-<img src="./assets/server%20creation.png" width = 500/></br>
-
-Give a name to the server</br>
-<img src="./assets/general.png" width = 500/></br>
-
-Select "Connection" tab and write the name of the service "db", the username and password of PostgreSQL<br>
-<img src="./assets/db.png" width = 500/></br>
-
-Click "Save".
-
-<h2> Usage </h2>
 
 
 
