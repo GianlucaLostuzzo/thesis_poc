@@ -22,16 +22,12 @@ services:
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
       - "5050:80"
-volumes:
-  postgres_data:
-    driver: local
-
   appsmith:
-    image: index.docker.io/appsmith/appsmith-ce
     container_name: appsmith
+    image: index.docker.io/appsmith/appsmith-ce
     ports:
       - "80:80"
-      - "443:443"
+      #- "443:443"
     volumes:
       - ./stacks:/appsmith-stacks
     restart: unless-stopped
@@ -46,3 +42,6 @@ volumes:
   #   # Update check interval in seconds.
   #   command: --schedule "0 0 * ? * *" --label-enable --cleanup
   #   restart: unless-stopped
+volumes:
+  postgres_data:
+    driver: local
